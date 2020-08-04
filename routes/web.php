@@ -28,3 +28,6 @@ Route::any("/index/login","Index\AdminController@login");//逻辑登陆
 Route::any("/index/reg","Index\AdminController@reg");//逻辑注册
 Route::any("/index/user","Index\AdminController@user");//逻辑注册
 
+Route::any("/goods/product","Goods\IndexController@product");//商品详情
+
+
