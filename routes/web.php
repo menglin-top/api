@@ -29,5 +29,5 @@ Route::any("/index/reg","Index\AdminController@reg");//逻辑注册
 Route::any("/index/user","Index\AdminController@user");//逻辑注册
 
 Route::any("/goods/product","Goods\IndexController@product");//商品详情
-
+Route::any("/goods/cart","Goods\IndexController@cart");//添加到购物车
 
